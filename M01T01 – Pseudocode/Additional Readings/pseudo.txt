@@ -1,0 +1,107 @@
+An algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs the largest of the numbers that were entered. 
+
+
+set largest_number = 0
+
+Repeat
+	print "Enter positive number (or 0 to stop): "
+`	read number
+
+	if number > largest_number then
+		set largest_number TO number
+	end if
+
+until number = 0
+
+print "The largest number entered was: " + largest_number
+
+
+
+
+An algorithm that requests a user to input their name and then stores their name in a variable called first_name. Subsequently, the algorithm should print out first_name along with the phrase “Hello, World”. 
+
+
+
+request user's first_name
+
+print first_name, " Hello World"
+
+
+
+An algorithm that reads an arbitrary number of integers and then returns their arithmetic average. 
+
+
+set sum to 0
+set count to 0
+
+print "Enter an integer (or type 'done' to finish)
+read input
+
+if input is not "done" then
+	convert input to number
+	add number to sum
+	increment count by 1
+
+end if
+
+until input is "done" 
+
+if count > 0 then
+	set average to sum / count
+	print "The arithmetic average is: ", average
+else
+	print "No numbers were entered."
+
+
+
+
+
+An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still left to buy. 
+
+
+
+create empty list called grocery_list
+create empty list called bought_items
+
+print "Enter grocery items one by one (type "done" to finish)"
+repeat
+	read item 
+	if item does not = "done" then
+	add item to grocery_list
+	end if 
+until item = "done"
+
+print "Enter items that you have bought (type "done" to finish)"
+repeat
+	read buy
+	if buy does not = "done" then
+	add bought to bought_items
+	end if
+until bought = "done" 
+
+create empty list in called items_left
+	for each item in grocerist_ do 
+	if item not in bought_items then
+	add item to items left
+
+sort items_lef in alphabetical order 
+
+print "Items still left to buy:" 
+	for each items in items_left do display item 
+
+
+
+● An algorithm for the flowchart on the following page:
+
+
+print "Enter value for X"
+read X
+
+print "Enter value for Y"
+read Y
+
+set S = X + Y
+set A = S / 2
+set P = X * Y
+
+print S, A and P
