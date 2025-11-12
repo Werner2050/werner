@@ -12,4 +12,5 @@ street_name = input("What is your street name?")
 
 print("The is " + name + ". " + f"He is {age} years old and lives at house number {house_num}" + " " + street_name + " .")
 
+print("This is {}. He is {} years old and lives at house number {} on {}.".format(name, age, house_num, street_name))
 # this was fun
